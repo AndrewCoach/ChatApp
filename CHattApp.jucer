@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="BMQp8N" name="CHattApp" projectType="guiapp" jucerVersion="5.4.7">
+  <MAINGROUP id="dV2uuu" name="CHattApp">
+    <GROUP id="{DFDF2B9F-C82C-D7DC-6AFA-E5A7678BC5C5}" name="Source">
+      <FILE id="KWCJXX" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="woz2No" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="dvJpND" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <FILE id="g2vJ8s" name="AppState.cpp" compile="1" resource="0" file="Source/AppState.cpp"/>
+    <FILE id="UysvjD" name="AppState.h" compile="0" resource="0" file="Source/AppState.h"/>
+    <FILE id="JIck7J" name="ChattingState.cpp" compile="1" resource="0"
+          file="Source/ChattingState.cpp"/>
+    <FILE id="ywuudU" name="ChattingState.h" compile="0" resource="0" file="Source/ChattingState.h"/>
+    <FILE id="FzW7Cv" name="ConnectionState.cpp" compile="1" resource="0"
+          file="Source/ConnectionState.cpp"/>
+    <FILE id="mKM9xL" name="ConnectionState.h" compile="0" resource="0"
+          file="Source/ConnectionState.h"/>
+    <FILE id="TL38oF" name="InitialState.cpp" compile="1" resource="0"
+          file="Source/InitialState.cpp"/>
+    <FILE id="j2MIG7" name="InitialState.h" compile="0" resource="0" file="Source/InitialState.h"/>
+    <FILE id="UwhKdB" name="ListeningState.cpp" compile="1" resource="0"
+          file="Source/ListeningState.cpp"/>
+    <FILE id="eGLYUo" name="ListeningState.h" compile="0" resource="0"
+          file="Source/ListeningState.h"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../C ++/juce-5.4.7-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>
