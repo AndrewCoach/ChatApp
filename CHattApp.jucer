@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="BMQp8N" name="CHattApp" projectType="guiapp" jucerVersion="5.4.7">
+<JUCERPROJECT id="BMQp8N" name="CHattApp" projectType="guiapp" displaySplashScreen="1"
+              jucerFormatVersion="1">
   <MAINGROUP id="dV2uuu" name="CHattApp">
     <GROUP id="{DFDF2B9F-C82C-D7DC-6AFA-E5A7678BC5C5}" name="Source">
       <FILE id="KWCJXX" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
